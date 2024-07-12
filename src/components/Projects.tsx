@@ -13,7 +13,7 @@ const Projects = () => {
   if (!isMounted) return null;
 
     return (
-        <div className="h-[40rem] w-full flex flex-col items-center justify-center overflow-hidden rounded-md z-20">
+        <div className="h-auto md:h-[40rem] w-full flex flex-col items-center justify-center overflow-hidden rounded-md z-20">
             <h1 className="md:text-7xl text-3xl lg:text-7xl font-bold text-center text-white relative z-20">
                 Projects
             </h1>
@@ -37,12 +37,12 @@ const Projects = () => {
                 {/* Radial Gradient to prevent sharp edges */}
                 <div className="absolute inset-0 w-full h-full bg-slate-950 [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
             </div>
-            <div className="flex">
+            <div className="flex flex-col md:flex-row">
                 <PinContainer
                 title="/ui.aceternity.com"
                 href="https://twitter.com/mannupaaji"
                 >
-                    <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+                    <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]">
                     <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                         Cryptocurrency App
                     </h3>
@@ -58,7 +58,7 @@ const Projects = () => {
                 title="/ui.aceternity.com"
                 href="https://twitter.com/mannupaaji"
                 >
-                    <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+                    <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]">
                     <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                         Video streaming App
                     </h3>
@@ -74,7 +74,7 @@ const Projects = () => {
                 title="/ui.aceternity.com"
                 href="https://twitter.com/mannupaaji"
                 >
-                    <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+                    <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]">
                     <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                         Music Academy App
                     </h3>

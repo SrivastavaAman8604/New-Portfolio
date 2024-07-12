@@ -7,7 +7,7 @@ import { SocialIcon } from 'react-social-icons'
 const Hero = () => {
     
   return (
-    <div className='pt-40'>
+    <div className='pt-40 '>
         <LampContainer>
         <motion.div
             initial={{ opacity: 0.5, y: 100 }}
@@ -17,10 +17,10 @@ const Hero = () => {
             duration: 0.8,
             ease: "easeInOut",
             }}
-            className="mt-20 bg-gradient-to-br from-slate-300 to-slate-500 py-2 bg-clip-text text-center text-2xl font-medium tracking-tight text-transparent md:text-2xl"
+            className="mt-20 sm:mt-0 bg-gradient-to-br from-slate-300 to-slate-500 py-2 bg-clip-text text-center text-2xl font-medium tracking-tight text-transparent md:text-2xl sm:text-xl"
         >
-            <h1 className='md:text-5xl text-4xl py-2 my-6 text-white'>Hello <span className='text-yellow-300'>👋</span>, I'm Aman Srivastava</h1>
-            <p>I am a passionate frontend developer specializing in HTML, CSS, JavaScript, and React, with a keen interest in optimizing React applications and learning Next.js. I love collaborating on frontend projects, constantly exploring new technologies, and crafting visually stunning user interfaces.</p>
+            <h1 className="text-2xl md:text-5xl pt-20 md:pt-10 my-10 md:my-6 text-white">Hello <span className='text-yellow-300'>👋</span>, I'm Aman Srivastava</h1>
+            <p className=' md:text-2xl sm:text-xl'>I am a passionate frontend developer specializing in HTML, CSS, JavaScript, and React, with a keen interest in optimizing React applications and learning Next.js. I love collaborating on frontend projects, constantly exploring new technologies, and crafting visually stunning user interfaces.</p>
             <div className='flex justify-center pt-10 space-x-4'>
                 <SocialIcon url="https://github.com/SrivastavaAman8604" />
                 <SocialIcon url="www.linkedin.com/in/aman-srivastava-21b54b166" />
