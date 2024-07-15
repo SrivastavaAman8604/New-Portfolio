@@ -1,5 +1,6 @@
 "use client";
 import React,{ useEffect, useState } from "react";
+import Image from 'next/image'
 import { SparklesCore } from "./ui/sparkles";
 import { PinContainer } from "./ui/3d-pin";
 
@@ -39,51 +40,69 @@ const Projects = () => {
             </div>
             <div className="flex flex-col md:flex-row">
                 <PinContainer
-                title="/ui.aceternity.com"
-                href="https://twitter.com/mannupaaji"
+                title="Cryptocurrency App"
+                href="https://crypto-master-nine.vercel.app/"
                 >
                     <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]">
-                    <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+                    {/* <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" /> */}
+                    <Image
+                        src="/crypto.jpg"
+                        width={500}
+                        height={500}
+                        alt="Picture of the author"
+                    />
+                    <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100 pt-5">
                         Cryptocurrency App
                     </h3>
                     <div className="text-base !m-0 !p-0 font-normal">
                         <span className="text-slate-500 ">
-                        Description of Project 1.
+                        Real-time insights in cryptocurrency space with React and Chakra UI.
                         </span>
                     </div>
-                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
                     </div>
                 </PinContainer>
                 <PinContainer
-                title="/ui.aceternity.com"
-                href="https://twitter.com/mannupaaji"
+                title="Video streaming App"
+                href="https://i-tube-jet.vercel.app/"
                 >
                     <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]">
-                    <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+                    {/* <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" /> */}
+                    <Image
+                        src="/vr.jpg"
+                        width={500}
+                        height={500}
+                        alt="Picture of the author"
+                    />
+                    <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100 pt-5">
                         Video streaming App
                     </h3>
                     <div className="text-base !m-0 !p-0 font-normal">
                         <span className="text-slate-500 ">
-                        Description of Project 1.
+                        Responsive platform for multimedia content consumption using Chakra UI.
                         </span>
                     </div>
-                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
                     </div>
                 </PinContainer>
                 <PinContainer
-                title="/ui.aceternity.com"
-                href="https://twitter.com/mannupaaji"
+                title="Music Academy App"
+                href="https://music-academy-rose.vercel.app/"
                 >
                     <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]">
-                    <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+                    {/* <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" /> */}
+                    <Image
+                        src="/music.jpg"
+                        width={500}
+                        height={500}
+                        alt="Picture of the author"
+                    />
+                    <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100 pt-5">
                         Music Academy App
                     </h3>
                     <div className="text-base !m-0 !p-0 font-normal">
                         <span className="text-slate-500 ">
-                        Description of Project 1.
+                        Seamless learning platform for music with advanced Next.js features.
                         </span>
                     </div>
-                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
                     </div>
                 </PinContainer>
             </div>
