@@ -43,7 +43,7 @@ const Projects = () => {
                 title="Cryptocurrency App"
                 href="https://crypto-master-nine.vercel.app/"
                 >
-                    <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]">
+                    <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] pt-4 sm:pt-0">
                     {/* <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" /> */}
                     <Image
                         src="/crypto.jpg"
@@ -65,7 +65,7 @@ const Projects = () => {
                 title="Video streaming App"
                 href="https://i-tube-jet.vercel.app/"
                 >
-                    <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]">
+                    <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] pt-4 sm:pt-0">
                     {/* <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" /> */}
                     <Image
                         src="/vr.jpg"
@@ -87,7 +87,7 @@ const Projects = () => {
                 title="Music Academy App"
                 href="https://music-academy-rose.vercel.app/"
                 >
-                    <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]">
+                    <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] pt-4 sm:pt-0">
                     {/* <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" /> */}
                     <Image
                         src="/music.jpg"
